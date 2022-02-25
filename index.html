@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css.css">
+    <!--    <link rel="stylesheet" href="css.css">-->
 </head>
 <body>
 <h1>Do you love me ? </h1>
@@ -14,15 +14,15 @@
         alert('OK !!!');
 
     }
+
     function no() {
-        let ngang = Math.random()*window.innerHeight;
-        let doc = Math.random()*window.innerWidth;
-        document.getElementById('n').style.left=ngang+'px';
-        document.getElementById('n').style.top=doc+'px';
+        n.style.position = 'relative';
+        let ngang = Math.random() * window.innerHeight;
+        let doc = Math.random() * window.innerWidth;
+        document.getElementById('n').style.left = ngang + 'px';
+        document.getElementById('n').style.top = doc + 'px';
 
     }
-
-
 
 
 </script>
